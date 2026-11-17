@@ -14,7 +14,7 @@ int main()
     do
     {
         printf("\n==============================\n");
-        printf("     PROGRAM PORTFOLIO\n");
+        printf("     MAIN MENU\n");
         printf("==============================\n");
         printf("1. Pattern Generator\n");
         printf("2. Pascal's Triangle\n");
@@ -171,7 +171,6 @@ int main()
                 }
             } while (rows < 1 || rows > 12);
 
-            /* each number is the sum of the two numbers above it */
             for (r = 0; r < rows; r++)
             {
                 for (j = 0; j <= r; j++)
@@ -274,7 +273,6 @@ int main()
                 leftCh = word[i];
                 rightCh = word[length - 1 - i];
 
-                /* change capital letters to small letters */
                 if (leftCh >= 'A' && leftCh <= 'Z')
                 {
                     leftCh = leftCh + 32;
